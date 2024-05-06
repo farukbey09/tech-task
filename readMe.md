@@ -1,5 +1,5 @@
 ## Client
-    [Client gitlab linki](https://gitlab.com/farukbey09/todo-client)
+    [GitHub Pages](https://pages.github.com/).
 
     Burada ele aldığım temel başlıklar şunlar:
         ```
