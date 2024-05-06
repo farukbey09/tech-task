@@ -1,5 +1,5 @@
 ## Client
-    [GitHub Pages](https://pages.github.com/).
+    https://gitlab.com/farukbey09/todo-client
 
     Burada ele aldığım temel başlıklar şunlar:
         ```
@@ -13,8 +13,7 @@
 
 
 ## Server
-    [Server gitlab linki](https://gitlab.com/farukbey09/todo-server)
-
+    https://gitlab.com/farukbey09/todo-server
         Burada ele aldığım temel başlıklar şunlar:
         ```
         -unit testing
