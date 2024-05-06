@@ -12,8 +12,11 @@ pact broker url alma kısmında sorun yaşadım dockerize edip localde yapabilir
 # Client
 <a href="https://gitlab.com/farukbey09/todo-client"><strong>Client Gitlab URL</strong></a>
 
-## E2E TESTING
+## E2E TESTING(Cypress)
 https://github.com/farukbey09/tech-task/assets/59178479/5c51986f-23f1-471c-95a0-bed31cd953d9
+
+## Component Testing (Cypress)
+<img src="component-testing.png"/>
 
 ## Pipeline
 <img src="client-ci.png">
@@ -22,6 +25,13 @@ https://github.com/farukbey09/tech-task/assets/59178479/5c51986f-23f1-471c-95a0-
 
 # Server
 <a href="https://gitlab.com/farukbey09/todo-server"><strong>Server Gitlab URL</strong></a>
+
+## Unit Testing(Convey)
+<img src="component-testing.png"/>
+
+
+
+
 
 ## Pipeline
 <img src="server-ci.png">
