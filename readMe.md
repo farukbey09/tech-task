@@ -8,10 +8,12 @@ pact broker url alma kısmında sorun yaşadım dockerize edip localde yapabilir
 <img src="k8s.png">
 
 
-
  
 # Client
 <a href="https://gitlab.com/farukbey09/todo-client"><strong>Client Gitlab URL</strong></a>
+
+## E2E TESTING
+https://github.com/farukbey09/tech-task/assets/59178479/5c51986f-23f1-471c-95a0-bed31cd953d9
 
 ## Pipeline
 <img src="client-ci.png">
