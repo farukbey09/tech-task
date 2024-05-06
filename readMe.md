@@ -1,21 +1,27 @@
+# Özet
+<p>
+Uygulamayı TDD prensipleri çerçevesinde geliştirmeye çalıştım. İlk olarak localde bütün testlerimi çalıştırıp beklentilerime göre sonuçları aldıktan sonra da uygulamayı yazıp ve ayaga     kaldırdım. Localdeyken sorun yaşadıgım şey şu oldu contract testingte consumer ile pact oluşturdum hatta bunu pact-flowa publishledim fakat provider kısmında bir türlü verify edemedim.
+pact broker url alma kısmında sorun yaşadım dockerize edip localde yapabilirdim ama bunu ci-cd ye entegre edemezdim.sonra uygulamayı contract testing olmadan ayağa kaldırdım ve istediğim gibi çalışyıordu localde bunun yaml dosyalarını oluşturup minikube üzerinde deployment ve servislerini burda oluşturup bulut ya da uzak sunucularla uğraşmyayım dedim fakat minikube linux işletim sistemimin root kısmını doldurdu açamaz hale geldim linuxu sonrasında ben de gke ye deploy ettim. ve son olarak pipeline kısmına geleyim burada da ortam sıkıntısı yaşadım localimde düzgünce çalışan testleri pipeline aktaramadım dockerize edip ortamdan bağımsız da yapamadım. sadece go unit test kısmını pipeline ile kontrol edebildim deployment ve build aşamalarında bir sorun olmadı.Aşağıda client ve servisin link ve bazı fotoğrafları bulunmakta.
+</p>
+    
+## K8S
+<img src="k8s.png">
+
+
+
+ 
 # Client
 <a href="https://gitlab.com/farukbey09/todo-client"><strong>Client Gitlab URL</strong></a>
 
-Burada ele aldığım temel başlıklar şunlar:
+## Pipeline
+<img src="client-ci.png">
 
-    -acceptance testing
-    -unit testing
-    -component testing
-    -contract testing
-    -mock service
-      
+
 
 # Server
 <a href="https://gitlab.com/farukbey09/todo-server"><strong>Server Gitlab URL</strong></a>
 
-Burada ele aldığım temel başlıklar şunlar:
-
-    -unit testing
-    -contract testing
+## Pipeline
+<img src="server-ci.png">
 
 
